@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'KCCChassam';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCCChassam.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'KCCChassam';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.btn {
+    font-family: 'KCCChassam';
+    width: 15vw;
+    height: 7vh;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border-color: white;
+    background-color: #79ad90;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+.show{
+    display: block;
+}
